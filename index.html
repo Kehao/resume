@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kehao · 前端工程师与 AI 应用开发者 — GitHub Pages 作品集。Front / BiosanUi / iUi 组件库与 AI 热榜、股票榜等独立项目。">
+<title>Kehao — Front-End &amp; AI Developer Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="topnav" id="top">
+  <div class="topnav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-box">K</span>
+      <span class="brand-name">KEIHAO<span class="blink">_</span></span>
+      <span class="brand-tag">PORTFOLIO v1.0</span>
+    </a>
+    <div class="nav-links">
+      <a href="#work" class="active">01 Work</a>
+      <a href="#projects">02 Projects</a>
+      <a href="#stats">03 Stats</a>
+      <a href="#about">04 About</a>
+    </div>
+    <a class="nav-cta" href="https://github.com/Kehao" target="_blank" rel="noopener">GitHub ↗</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-copy">
+    <span class="kicker rv">FRONT-END · AI APPLICATIONS · OPEN SOURCE</span>
+    <h1 class="hero-title rv">
+      <em>Kehao</em>
+    </h1>
+    <p class="hero-dek rv">
+      把界面做扎实，把数据做成产品。
+      白天写企业级前端基建，晚上做 AI 新闻聚合、股票榜这类
+      <b>自驱动的数据产品</b>——这里收录了我部署在 GitHub Pages 上的站点与正在维护的开源项目。
+    </p>
+    <div class="hero-ctas rv">
+      <a class="btn btn-ink" href="#work">查看作品 ↓</a>
+      <a class="btn btn-yellow" href="#about">关于我</a>
+    </div>
+  </div>
+
+  <aside class="hero-board rv" aria-hidden="true">
+    <div class="sticker s-violet">@b1/frontend</div>
+    <div class="sticker s-lime">hot.kehao.info</div>
+    <div class="sticker s-magenta">66+ REPOS</div>
+    <div class="sticker s-yellow mono">pages×3</div>
+    <div class="tilt-tag">EST. 2016 →</div>
+    <div class="mono-line"><b>/dev</b> /html /css /ts /py</div>
+  </aside>
+</header>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>REACT</span><i>✦</i><span>VUE</span><i>✦</i><span>TYPE&#8203;SCRIPT</span><i>✦</i><span>Hugo</span><i>✦</i><span>PYTHON</span><i>✦</i><span>AI AGENT</span><i>✦</i><span>DATA PIPELINE</span><i>✦</i><span>GITHUB PAGES</span><i>✦</i><span>REACT</span><i>✦</i><span>VUE</span><i>✦</i><span>TYPE&#8203;SCRIPT</span><i>✦</i><span>Hugo</span><i>✦</i><span>PYTHON</span><i>✦</i><span>AI AGENT</span><i>✦</i><span>DATA PIPELINE</span><i>✦</i><span>GITHUB PAGES</span><i>✦</i>
+  </div>
+</div>
+
+<main>
+
+  <!-- ============ 01 · GITHUB PAGES WORK ============ -->
+  <section class="sec" id="work">
+    <div class="sec-head">
+      <span class="sec-num mono">01</span>
+      <h2>GitHub&nbsp;Pages&nbsp;作品</h2>
+      <span class="sec-note">目前启用 GitHub Pages 的 3 个仓库 — 均从 <b>github.com/Kehao</b> 直接部署</span>
+    </div>
+
+    <div class="work-list">
+
+      <!-- Front -->
+      <article class="w-card w-feature rv">
+        <div class="w-top">
+          <span class="w-src mono">github.com/Kehao/Kehao.github.io · 2026 活跃</span>
+          <span class="w-live">● LIVE</span>
+        </div>
+        <div class="w-body">
+          <h3 class="w-title">Front <small>@b1/frontend</small></h3>
+          <p class="w-url mono">https://kehao.github.io/ ↗</p>
+          <p class="w-desc">
+            个人主页级组件库文档站。以 <b>dumi + React + TypeScript + Lerna</b> 搭建的 monorepo，
+            聚合了四个子包——<code>components</code>（ColorPicker、
+            DragModal、ImageSecurity、KeepRoute 等）、<code>hooks</code>、<code>msgs</code> 与
+            <code>utils</code>，一份文档站集中沉淀多年工程资产，2026 年仍持续更新。
+          </p>
+          <div class="w-tags">
+            <span>dumi</span><span>React</span><span>TypeScript</span><span>Lerna Monorepo</span><span>业务组件库</span>
+          </div>
+          <a class="btn btn-ink btn-sm" href="https://kehao.github.io/" target="_blank" rel="noopener">访问站点 →</a>
+        </div>
+      </article>
+
+      <!-- BiosanUi -->
+      <article class="w-card rv">
+        <div class="w-top">
+          <span class="w-src mono">github.com/Kehao/react-ui</span>
+          <span class="w-live">● npm pkg</span>
+        </div>
+        <div class="w-body">
+          <h3 class="w-title">BiosanUi <small>@b1/biosan-ui</small></h3>
+          <p class="w-url mono">https://kehao.github.io/react-ui/ ↗</p>
+          <p class="w-desc">
+            基于 <b>React 16 + Ant Design 3</b> 的业务组件库，沉淀业务实战中的高频组件——
+            下拉搜索选择、图片预览 / 查看器、虚拟表格、批量上传、复杂表单录入等；并内置
+            <code>utils</code> 工具集（RSA、request、本地存储、打印导出），支持
+            babel-plugin-import 按需引入，与老业务工程无缝集成。
+          </p>
+          <div class="w-tags">
+            <span>React</span><span>antd3</span><span>业务组件</span><span>RSA / request utils</span>
+          </div>
+          <a class="btn btn-ink btn-sm" href="https://kehao.github.io/react-ui/" target="_blank" rel="noopener">访问站点 →</a>
+        </div>
+      </article>
+
+      <!-- iUi -->
+      <article class="w-card rv">
+        <div class="w-top">
+          <span class="w-src mono">github.com/Kehao/iui · 2022 归档</span>
+          <span class="w-live">● ARCHIVED</span>
+        </div>
+        <div class="w-body">
+          <h3 class="w-title">iUi <small>Vue.js UI library</small></h3>
+          <p class="w-url mono">https://kehao.github.io/iui/ ↗</p>
+          <p class="w-desc">
+            早期 <b>Vue.js</b> UI 组件库实验项目（源自 GitLab 迁移）。同一套组件思路在两个框架
+            生态各落一版——iUi（Vue）与 BiosanUi（React）互为印证，也见证了从 Vue 走向
+            React + TypeScript 的技术路线演进。
+          </p>
+          <div class="w-tags">
+            <span>Vue.js</span><span>UI Components</span><span>Legacy</span>
+          </div>
+          <a class="btn btn-ink btn-sm" href="https://kehao.github.io/iui/" target="_blank" rel="noopener">访问站点 →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ 02 · PROJECTS ============ -->
+  <section class="sec" id="projects">
+    <div class="sec-head">
+      <span class="sec-num mono">02</span>
+      <h2>正在维护的项目</h2>
+      <span class="sec-note">Github Pages 之外，独立开发并长期运营的数据产品与工具链</span>
+    </div>
+
+    <div class="p-grid">
+
+      <a class="p-card p-violet rv" href="https://hot.kehao.info" target="_blank" rel="noopener">
+        <span class="p-lab mono">AI NEWS · SELF-RUNNING</span>
+        <h3>AI 热榜</h3>
+        <p>每 6 小时自动聚合中文 AI 新闻的独立站点。Hugo 静态站 + Python 数据管线：RSS/API 抓取 → AI 摘要与洗稿 → 热度评分 → 自动构建发布，全流程无人值守。</p>
+        <div class="p-foot"><span class="p-tag">Hugo</span><span class="p-tag">Python</span><span class="p-tag">Cron 流水线</span><span class="p-go">hot.kehao.info ↗</span></div>
+      </a>
+
+      <a class="p-card p-yellow rv" href="https://github.com/Kehao/stock-rank" target="_blank" rel="noopener">
+        <span class="p-lab mono">MINI PROGRAM · EASTMONEY API</span>
+        <h3>股票排行榜</h3>
+        <p>股票榜微信小程序：基于 Taro + React + TS 呈现 A 股 / 美股日、周、月涨跌榜，东方财富公开数据驱动，可一键查看市场情绪热点。</p>
+        <div class="p-foot"><span class="p-tag">Taro</span><span class="p-tag">React</span><span class="p-tag">小程序</span><span class="p-go">repo ↗</span></div>
+      </a>
+
+      <a class="p-card p-lime rv" href="https://github.com/Kehao/github-user-repos" target="_blank" rel="noopener">
+        <span class="p-lab mono">MCP SERVER · PYTHON</span>
+        <h3>github-user-repos</h3>
+        <p>自研 MCP 服务器（FastMCP + stdio），为 AI Agent 提供 <code>list_user_repos(username)</code> 工具——让对话里的 GitHub 仓库查询变成可编程能力。</p>
+        <div class="p-foot"><span class="p-tag">MCP</span><span class="p-tag">FastMCP</span><span class="p-go">repo ↗</span></div>
+      </a>
+
+      <a class="p-card p-magenta rv" href="https://github.com/Kehao/my-skills" target="_blank" rel="noopener">
+        <span class="p-lab mono">AI SKILLS LIBRARY · 304 CURATED</span>
+        <h3>my-skills</h3>
+        <p>个人 AI Skills 精选库：按「编程 / 业务 / AGENTS」三大板块聚合 SkillHub 热门与 GitHub 高星技能，304 个技能持续中文化维护，并沉淀自研 skill-management 操作手册。</p>
+        <div class="p-foot"><span class="p-tag">AI Skills</span><span class="p-tag">SkillHub</span><span class="p-tag">中文化资源库</span><span class="p-go">repo ↗</span></div>
+      </a>
+
+      <a class="p-card p-violet rv" href="https://github.com/Kehao/district_cn_selector" target="_blank" rel="noopener">
+        <span class="p-lab mono">RUBY GEM · RAILS PLUGIN</span>
+        <h3>district_cn_selector</h3>
+        <p>早期开源的 Rails 三级联动省市区选择器插件：select / select-ul 两种下拉形态，支持 Bootstrap 与 simple_form，配 Travis CI——2013 年的第一代前端组件尝试。</p>
+        <div class="p-foot"><span class="p-tag">Ruby</span><span class="p-tag">Rails</span><span class="p-tag">三级联动</span><span class="p-tag">Legacy</span><span class="p-go">repo ↗</span></div>
+      </a>
+
+      <a class="p-card p-white rv" href="https://github.com/history-frontEnd/BeeUi" target="_blank" rel="noopener">
+        <span class="p-lab mono">CAREER ARCHIVE · WEPY MINI-PROGRAM KIT</span>
+        <h3>BeeUi</h3>
+        <p>早期团队微信小程序组件库：wepy 构建、样式参考 minui，配套 <code>@b1/bee-cli</code> 命令行与组件发布流水线（bee publish 直发 npm，如 <code>@b1/bee-code-input</code>），9 个版本 tag——history-frontEnd / biosan-frontEnd 时代与 @b1 生态同源的前端组件基建。</p>
+        <div class="p-foot"><span class="p-tag">wepy</span><span class="p-tag">小程序</span><span class="p-tag">UI Kit</span><span class="p-tag">bee-cli</span><span class="p-go">repo ↗</span></div>
+      </a>
+
+      <a class="p-card p-ink p-wide rv" href="https://github.com/Kehao/dsh-client-ui-weather" target="_blank" rel="noopener">
+        <span class="p-lab mono">DSH PLUGIN · DEEPSEEK HARNESS</span>
+        <h3>dsh-client-ui-weather</h3>
+        <p>DeepSeek Harness Web GUI 侧边栏的本地天气卡片插件：浏览器定位（IP 兜底）与城市搜索，基于免 key 的 Open-Meteo API 展示当前天气；11 种天气状态配 SMIL 动画 SVG 背景，窄栏自动折叠为温度按钮，内置中英双语。</p>
+        <div class="p-foot"><span class="p-tag">DeepSeek Harness</span><span class="p-tag">TypeScript</span><span class="p-tag">Open-Meteo</span><span class="p-tag">Sidebar Plugin</span><span class="p-go">repo ↗</span></div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ 03 · STATS ============ -->
+  <section class="sec sec-dark" id="stats">
+    <div class="stats-band">
+      <div class="stat"><span class="stat-n mono" data-count="66">0</span><span class="stat-l">PUBLIC REPOS</span></div>
+      <div class="stat"><span class="stat-n mono" data-count="3">0</span><span class="stat-l">GITHUB PAGES</span></div>
+      <div class="stat"><span class="stat-n mono" data-count="4">0</span><span class="stat-l">ACTIVE OSS</span></div>
+      <div class="stat"><span class="stat-n mono" data-count="6">0</span><span class="stat-l">HOURS / UPDATE</span></div>
+    </div>
+  </section>
+
+  <!-- ============ 04 · ABOUT ============ -->
+  <section class="sec" id="about">
+    <div class="sec-head">
+      <span class="sec-num mono">04</span>
+      <h2>关于我</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="a-card rv">
+        <h3 class="a-title">我在做什么</h3>
+        <p>专注 <b>前端工程</b> 与 <b>AI 应用</b>：长期维护组件库与工具链；业余把数据管线和 AI
+        能力卷成自运转的小产品——从聚合抓取、质量门禁到自动部署，追求「写完代码就不用管」的系统。</p>
+        <p>关注 Agent / Skill 生态，习惯把一次性的对话产出沉淀成可复用资产（技能、文档、脚手架），
+        并在 GitHub 上保持开源。</p>
+      </div>
+
+      <div class="a-card a-chip-card rv">
+        <h3 class="a-title">栈</h3>
+        <div class="chips">
+          <span>HTML / CSS</span><span>React</span><span>Vue</span><span>TypeScript</span>
+          <span>Node.js</span><span>Python</span><span>Hugo</span><span>Mini Program</span>
+          <span>AI Agents</span><span>MCP</span><span>Data Pipeline</span><span>Nginx / ECS</span>
+        </div>
+      </div>
+
+      <div class="a-card rv">
+        <h3 class="a-title">联系</h3>
+        <ul class="a-links">
+          <li><span class="mono">GitHub</span><a href="https://github.com/Kehao" target="_blank" rel="noopener">github.com/Kehao ↗</a></li>
+          <li><span class="mono">Email</span><a href="mailto:magnet388@126.com">magnet388@126.com</a></li>
+          <li><span class="mono">Live Site</span><a href="https://hot.kehao.info" target="_blank" rel="noopener">hot.kehao.info ↗</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div>© 2026 KEIHAO · HAND-BUILT, NO FRAMEWORK</div>
+  <div class="foot-right">
+    <span>DESIGN: NEO-BRUTAL · DIRECTION B</span>
+    <a href="#top" class="back-top mono">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
