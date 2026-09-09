@@ -10,6 +10,8 @@
   --magenta:#E1306C;      /* 次撞色 · 品红 */
   --yellow:#F8E000;       /* 强调 · 亮黄 */
   --lime:#58CC02;         /* 免费/在线 · 青柠 */
+  --orange:#FF6B00;       /* 强调 · 活力橙 */
+  --cyan:#00B8D9;         /* 强调 · 青色 */
   --hair:rgba(8,8,13,.14);
   --font:"Helvetica Neue",-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;
   --mono:"SF Mono",Menlo,Consolas,ui-monospace,monospace;
@@ -71,6 +73,7 @@ body.js .rv.in{opacity:1;transform:none;transition:opacity .55s ease,transform .
 .s-lime{background:var(--lime);color:var(--ink);top:118px;right:26px;transform:rotate(3deg);animation:float 5.6s .4s ease-in-out infinite}
 .s-magenta{background:var(--magenta);color:#fff;bottom:52px;left:44px;transform:rotate(2deg);animation:float 6.2s .8s ease-in-out infinite}
 .s-yellow{background:var(--yellow);color:var(--ink);bottom:120px;right:52px;transform:rotate(-3deg);animation:float 5.3s 1.2s ease-in-out infinite}
+.s-orange{background:var(--orange);color:var(--ink);bottom:196px;left:30px;transform:rotate(-2deg);animation:float 5.8s .6s ease-in-out infinite}
 @keyframes float{0%,100%{margin:0}50%{margin:-6px 0 0 -6px}}
 .tilt-tag{position:absolute;top:12px;right:14px;font-size:11px;font-weight:900;letter-spacing:.12em;background:var(--ink);color:var(--yellow);padding:4px 8px}
 .mono-line{position:absolute;bottom:12px;left:16px;font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--ink)}
@@ -123,6 +126,8 @@ body.js .rv.in{opacity:1;transform:none;transition:opacity .55s ease,transform .
 .p-lime{background:var(--lime);color:var(--ink);--c-chip:var(--ink)}
 .p-ink{background:var(--ink);color:#fff;--c-chip:#fff}
 .p-white{background:#fff;color:var(--ink);--c-chip:var(--ink)}
+.p-orange{background:var(--orange);color:#fff;--c-chip:#fff}
+.p-cyan{background:var(--cyan);color:var(--ink);--c-chip:var(--ink)}
 .p-wide{grid-column:1/-1}
 .p-lab{font-size:10px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
 .p-card h3{font-size:30px;font-weight:900;letter-spacing:-.02em;line-height:1.05}

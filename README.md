@@ -16,6 +16,7 @@
 | github-user-repos | https://github.com/Kehao/github-user-repos | MCP Server |
 | dsh-client-ui-weather | https://github.com/Kehao/dsh-client-ui-weather | dsh 插件（DeepSeek Harness）|
 | my-skills | https://github.com/Kehao/my-skills | AI Skills 精选库 |
+| DAgent | https://github.com/Kehao/DAgent | 企业级多智能体框架（LangGraph + LangChain）|
 | district_cn_selector | https://github.com/Kehao/district_cn_selector | Ruby gem（2013 早期）|
 | BeeUi | https://github.com/history-frontEnd/BeeUi | wepy 小程序组件库（早期团队）|
 
