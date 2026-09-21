@@ -11,7 +11,7 @@
 | Front `@b1/frontend` | https://kehao.github.io/ | GitHub Pages |
 | BiosanUi `@b1/biosan-ui` | https://kehao.github.io/react-ui/ | GitHub Pages |
 | iUi | https://kehao.github.io/iui/ | GitHub Pages |
-| AI 热榜 | http://47.114.36.224/ | 自托管（阿里云）|
+| AI 热榜 | https://hot.kehao.info | 自托管（阿里云）|
 | 股票排行榜 | https://github.com/Kehao/stock-rank | 小程序 |
 | github-user-repos | https://github.com/Kehao/github-user-repos | MCP Server |
 | dsh-client-ui-weather | https://github.com/Kehao/dsh-client-ui-weather | dsh 插件（DeepSeek Harness）|

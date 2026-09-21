@@ -74,6 +74,8 @@ body.js .rv.in{opacity:1;transform:none;transition:opacity .55s ease,transform .
 .s-magenta{background:var(--magenta);color:#fff;bottom:52px;left:44px;transform:rotate(2deg);animation:float 6.2s .8s ease-in-out infinite}
 .s-yellow{background:var(--yellow);color:var(--ink);bottom:120px;right:52px;transform:rotate(-3deg);animation:float 5.3s 1.2s ease-in-out infinite}
 .s-orange{background:var(--orange);color:var(--ink);bottom:196px;left:30px;transform:rotate(-2deg);animation:float 5.8s .6s ease-in-out infinite}
+/* 贴纸板正中（Ai-get 线上站）：以百分比定位，窄屏也能保持居中 */
+.s-cyan{background:var(--cyan);color:var(--ink);top:64.3%;left:50.3%;transform:translate(-50%,-50%) rotate(4deg);animation:float 5.9s 1s ease-in-out infinite}
 @keyframes float{0%,100%{margin:0}50%{margin:-6px 0 0 -6px}}
 .tilt-tag{position:absolute;top:12px;right:14px;font-size:11px;font-weight:900;letter-spacing:.12em;background:var(--ink);color:var(--yellow);padding:4px 8px}
 .mono-line{position:absolute;bottom:12px;left:16px;font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--ink)}
